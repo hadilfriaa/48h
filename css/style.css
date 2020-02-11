@@ -1,0 +1,48 @@
+
+.form-title{
+    color : #2C3E50 ;
+    letter-spacing: 1.5px;
+}
+
+.formulaire-form {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.formulaire-form .form-group label {
+    margin: 20px 0px 10px 0px;
+    display: block;
+}
+
+.formulaire-form .form-group input {
+    height: 35px;
+    width: 100%;
+}
+
+.formulaire-form .form-group input:focus {
+    outline: none;
+}
+
+.formulaire-form .form-group .champ {
+    border: 1px solid grey;
+    margin-top: 0px;
+    height: 155px;
+    width: 100%;
+}
+
+.cformulaire-form .form-group .champ:focus {
+    border: 1px solid red;
+    outline: none;
+}
+
+.formulaire-form .form-group button {
+    border: 5px solid #2C3E50;
+    background-color: #2C3E50 ;
+    color: white;
+    font-size: 15px;
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    transition: 1s;
+}
+
